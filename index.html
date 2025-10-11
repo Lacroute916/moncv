@@ -9,30 +9,29 @@
       height: 100%;
       margin: 0;
       padding: 0;
-      width: 100%;
       background: #fff;
-    }
-    body {
-      height: 100vh;
-      width: 100vw;
       overflow: hidden;
     }
     iframe {
       position: fixed;
       top: 0;
       left: 0;
-      width: 100vw;
-      height: 100vh;
+      width: 100%;
+      height: 100%;
       border: none;
+      outline: none;
       margin: 0;
       padding: 0;
       display: block;
-      background: #fff;
+    }
+
+  
+    iframe:focus {
       outline: none;
     }
   </style>
 </head>
 <body>
-  <iframe src="daniel-neau-inizan-cv.pdf" title="CV PDF de Daniel Neau-Inizan" tabindex="-1"></iframe>
+  <iframe src="daniel-neau-inizan-cv.pdf" title="CV PDF de Daniel Neau-Inizan"></iframe>
 </body>
 </html>
